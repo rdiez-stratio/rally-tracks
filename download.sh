@@ -38,7 +38,7 @@ TARGETS[${#TARGETS[*]}]="${REPO_TARGET}"
 
 if [ ! -d "${HOME}/${REPO_TARGET}" ]
 then
-    git clone https://github.com/elastic/rally-tracks.git "${HOME}/${REPO_TARGET}"
+    git clone https://github.com/rdiez-stratio/rally-tracks.git "${HOME}/${REPO_TARGET}"
 fi
 
 if [ "${TRACK}" == "logging" ]
